@@ -3,6 +3,9 @@ A simple Virus Total Check for batch processing for my DFIR work
 
 You can use either GUI or CLI
 
+### Screenshot
+![Beta Mode of VT_Checker](GUI.PNG)  
+
 ## Installation
 Make sure to replace `"YOUR_VT_API_KEY"` in the `vt_utils.py` file with a valid **VirusTotal API** key. Also, install required dependencies such as `requests` and `tkinter`:
 
@@ -65,6 +68,3 @@ python VTCLI.py -t IP -d 8.8.8.8,8.8.4.4 -o output.csv -fmt CSV
 -o    Specify the path where you'd like the output file to be saved. For example, 'output.csv'.
 -fmt  Specify the format for the output file. The default is CSV, but JSON and TXT are also available.
 ```
-
-### Screenshot
-![Beta Mode of VT_Checker](GUI.PNG)  
